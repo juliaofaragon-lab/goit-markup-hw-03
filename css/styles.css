@@ -56,7 +56,12 @@ img {
 .header-container {
   display: flex;
   align-items: center;
-  padding: 24px 0;
+  padding: 0 15px;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
 }
 
 .logo {
