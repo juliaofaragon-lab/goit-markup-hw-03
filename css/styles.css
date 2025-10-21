@@ -279,6 +279,10 @@ img {
   text-transform: uppercase;
   color: var(--iris);
 }
+.logo {
+  display: inline-block;
+}
+
 
 .logo-span-footer {
   color: var(--cloud);
