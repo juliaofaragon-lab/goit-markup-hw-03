@@ -167,9 +167,6 @@ img {
   gap: 24px;
 }
 
-.features-list li:first-child {
-  width: calc((100% - 72px) / 4);
-
 .features-item {
   width: calc((100% - 72px) / 4);
 }
@@ -282,6 +279,7 @@ img {
   text-transform: uppercase;
   color: var(--iris);
 }
+
 .logo-span-footer {
   color: var(--cloud);
 }
