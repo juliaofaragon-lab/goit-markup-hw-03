@@ -168,8 +168,7 @@ img {
 }
 
 .features-item {
-  width: calc((100% - 72px) / 4);
-  flex: 0 0 calc((100% - 72px) / 4); 
+  width: calc((100% - 3 * 24px) / 4);
 }
 
 .features-title {
@@ -269,14 +268,7 @@ img {
   gap: 16px;
 }
 
-.footer-logo {
-  display: inline-block;  
-  margin-bottom: 16px;
-}
-
-.footer-logo {
-  display: inline-block;
-  margin-bottom: 16px;
+.logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -284,6 +276,11 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
+}
+
+.footer-logo {
+  display: inline-block;   
+  margin-bottom: 16px;
 }
 
 .logo-span-footer {
