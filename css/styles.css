@@ -171,10 +171,6 @@ img {
   width: calc((100% - 72px) / 4);
 }
 
-.features-item {
-  width: calc((100% - 72px) / 4);
-}
-
 .features-title {
   font-weight: 500;
   font-size: 20px;
@@ -272,7 +268,7 @@ img {
   gap: 16px;
 }
 
-.a .logo {
+.logo {
   display: inline-block;
   margin-bottom: 16px;
   font-family: "Raleway", sans-serif;
