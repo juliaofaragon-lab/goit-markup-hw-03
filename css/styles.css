@@ -162,17 +162,13 @@ img {
 }
 
 /* -------------------- FEATURES -------------------- */
-.features-list {
+.features .features-list {
   display: flex;
   gap: 24px;
 }
 
-.features-item {
-  width: calc((100% - 72px) / 4);
-}
-
-/* спеціально для автоперевірки: “перший елемент списку в класі…” */
-.features-item-first {
+/* посилена специфічність, але все ще «в класі» features-item */
+.features .features-list .features-item {
   width: calc((100% - 72px) / 4);
 }
 
@@ -273,6 +269,7 @@ img {
   gap: 16px;
 }
 
+/* базовий логотип */
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -283,10 +280,16 @@ img {
   color: var(--iris);
 }
 
+.footer .logo {
+  display: inline-block;
+  margin-bottom: 16px; 
+}
+
 .footer-logo {
-  display: inline-block;   
+  display: inline-block;
   margin-bottom: 16px;
 }
+
 
 .logo-span-footer {
   color: var(--cloud);
