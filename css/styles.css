@@ -168,7 +168,7 @@ img {
 }
 
 .features-item {
-  width: calc((100% - 3 * 24px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 
 .features-title {
@@ -281,6 +281,9 @@ img {
 .footer-logo {
   display: inline-block;   
   margin-bottom: 16px;
+}
+.footer .logo {
+  display: inline-block;
 }
 
 .logo-span-footer {
