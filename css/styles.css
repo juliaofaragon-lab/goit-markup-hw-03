@@ -167,11 +167,6 @@ img {
   gap: 24px;
 }
 
-/* посилена специфічність, але все ще «в класі» features-item */
-.features .features-list .features-item {
-  width: calc((100% - 72px) / 4);
-}
-
 .features-title {
   font-weight: 500;
   font-size: 20px;
@@ -185,6 +180,10 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.features .features-list .features-item {
+  width: calc((100% - 72px) / 4);
 }
 
 /* -------------------- TEAM -------------------- */
@@ -287,7 +286,6 @@ img {
 
 .footer-logo {
   display: inline-block;
-  margin-bottom: 16px;
 }
 
 
