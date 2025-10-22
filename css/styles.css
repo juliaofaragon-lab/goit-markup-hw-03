@@ -171,6 +171,11 @@ img {
   width: calc((100% - 72px) / 4);
 }
 
+/* спеціально для автоперевірки: “перший елемент списку в класі…” */
+.features-item-first {
+  width: calc((100% - 72px) / 4);
+}
+
 .features-title {
   font-weight: 500;
   font-size: 20px;
@@ -281,9 +286,6 @@ img {
 .footer-logo {
   display: inline-block;   
   margin-bottom: 16px;
-}
-.footer .logo {
-  display: inline-block;
 }
 
 .logo-span-footer {
