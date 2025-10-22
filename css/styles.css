@@ -167,7 +167,7 @@ img {
   gap: 24px;
 }
 
-.features-item:first-child {
+.features-item {
   width: calc((100% - 72px) / 4);
 }
 
@@ -266,6 +266,11 @@ img {
   display: flex;
   align-items: baseline;
   gap: 16px;
+}
+
+.footer-logo {
+  display: inline-block;  
+  margin-bottom: 16px;
 }
 
 .logo {
