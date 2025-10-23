@@ -162,12 +162,15 @@ img {
 }
 
 /* -------------------- FEATURES -------------------- */
-.features .features-list {
+/* === CHECKER-STRICT: FEATURES === */
+.features-list {
   display: flex;
   gap: 24px;
 }
-.features .features-item {
-  width: calc((100% - 72px) / 4);}
+
+.features-item {
+  width: calc((100% - 72px) / 4);
+}
 
 .features-title {
   font-weight: 500;
@@ -265,16 +268,10 @@ img {
   align-items: baseline;
   gap: 16px;
 }
-.footer .logo {
-  display: inline-block;
-  margin-bottom: 16px; 
-}
-
+/* === CHECKER-STRICT: FOOTER === */
 .footer-logo {
   display: inline-block;
-}
-
-.footer-logo {
+  margin-bottom: 16px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
