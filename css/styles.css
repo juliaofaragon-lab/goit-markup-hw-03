@@ -169,7 +169,7 @@ img {
 }
 
 .features-item {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4)
 }
 
 .features-title {
@@ -269,7 +269,7 @@ img {
   gap: 16px;
 }
 /* === CHECKER-STRICT: FOOTER === */
-.footer-logo {
+.logo .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
   font-family: "Raleway", sans-serif;
