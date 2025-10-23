@@ -269,7 +269,7 @@ img {
   gap: 16px;
 }
 /* === CHECKER-STRICT: FOOTER === */
-.logo .footer-logo {
+.logo {
   display: inline-block;
   margin-bottom: 16px;
   font-family: "Raleway", sans-serif;
