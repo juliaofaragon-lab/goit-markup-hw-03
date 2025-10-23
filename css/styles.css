@@ -166,7 +166,7 @@ img {
   display: flex;
   gap: 24px;
 }
-.features-item {
+.features .features-item {
   width: calc((100% - 72px) / 4);}
 
 .features-title {
@@ -265,12 +265,12 @@ img {
   align-items: baseline;
   gap: 16px;
 }
-a.footer .logo {
+.footer .logo {
   display: inline-block;
   margin-bottom: 16px; 
 }
 
-a.footer-logo {
+.footer-logo {
   display: inline-block;
 }
 
