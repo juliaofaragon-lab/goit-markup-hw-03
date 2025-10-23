@@ -171,11 +171,6 @@ img {
 .features-item {
   width: calc((100% - 72px) / 4);
 }
-.features-item:first-child {
-  width: calc((100% - 72px) / 4);
-}
-.features-list > .features-item:first-child {
-  width: calc((100% - 72px) / 4);
 
 .features-title {
   font-weight: 500;
@@ -273,20 +268,8 @@ img {
   align-items: baseline;
   gap: 16px;
 }
-.footer-logo {
-  display: inline-block;
-}
-a.footer-logo {
-  display: inline-block;
-}
-.footer .logo {
-  display: inline-block;
-}
-a.logo {
-  display: inline-block;
-}
 
-.logo .footer-logo {
+a.logo {
   display: inline-block;
   margin-bottom: 16px;
   font-family: "Raleway", sans-serif;
