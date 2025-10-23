@@ -166,10 +166,8 @@ img {
   display: flex;
   gap: 24px;
 }
-
-.features-item:first-child {
-  width: calc((100% - 72px) / 4);
-}
+.features-item {
+  width: calc((100% - 72px) / 4);}
 
 .features-title {
   font-weight: 500;
@@ -267,13 +265,9 @@ img {
   align-items: baseline;
   gap: 16px;
 }
-.footer .logo {
+a.footer .logo {
   display: inline-block;
   margin-bottom: 16px; 
-}
-
-a.footer-logo {
-  display: inline-block;
 }
 
 .logo {
