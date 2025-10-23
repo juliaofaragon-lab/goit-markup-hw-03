@@ -168,12 +168,8 @@ img {
   gap: 24px;
 }
 
-.features-item {
-  width: calc((100% - 72px) / 4);
-}
-
 .features-list > li:first-child.features-item {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 
@@ -274,7 +270,7 @@ img {
   gap: 16px;
 }
 /* === CHECKER-STRICT: FOOTER === */
-.logo {
+a.logo {
   display: inline-block;
   margin-bottom: 16px;
   font-family: "Raleway", sans-serif;
