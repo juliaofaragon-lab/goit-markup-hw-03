@@ -185,6 +185,9 @@ img {
 .features .features-list .features-item {
   width: calc((100% - 72px) / 4);
 }
+.features-item {
+  width: calc((100% - 72px) / 4);
+}
 
 /* -------------------- TEAM -------------------- */
 .team {
@@ -267,6 +270,14 @@ img {
   align-items: baseline;
   gap: 16px;
 }
+.footer .logo {
+  display: inline-block;
+  margin-bottom: 16px; 
+}
+
+.footer-logo {
+  display: inline-block;
+}
 
 /* базовий логотип */
 .logo {
@@ -278,16 +289,6 @@ img {
   text-transform: uppercase;
   color: var(--iris);
 }
-
-.footer .logo {
-  display: inline-block;
-  margin-bottom: 16px; 
-}
-
-.footer-logo {
-  display: inline-block;
-}
-
 
 .logo-span-footer {
   color: var(--cloud);
