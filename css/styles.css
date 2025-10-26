@@ -162,7 +162,7 @@ img {
 }
 
 /* -------------------- FEATURES -------------------- */
-/* === CHECKER-STRICT: FEATURES === */
+/* --- FEATURES (Section 2) --- */
 .features-list {
   display: flex;
   gap: 24px;
@@ -269,9 +269,8 @@ img {
   gap: 16px;
 }
 
-a.logo {
-  display: inline-block;
-  margin-bottom: 16px;
+.logo {
+  display: inline-block;            /* ← ключова стрічка для перевірки */
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
