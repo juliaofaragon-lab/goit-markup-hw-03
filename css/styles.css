@@ -299,8 +299,6 @@ a {
   color: var(--iris);
 }
 
-.footer .logo { display: inline-block; }
-
 .logo-span-footer {
   color: var(--cloud);
 }
@@ -312,4 +310,6 @@ a {
   letter-spacing: 0.02em;
   color: var(--cloud);
 }
+
+.footer .logo { display: inline-block; }
 
