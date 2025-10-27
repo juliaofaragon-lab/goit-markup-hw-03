@@ -287,16 +287,9 @@ a {
   gap: 16px;
 }
 
-.footer-logo {
-  display: inline-block;
-  margin-bottom: 16px;
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--iris);
+/* глобальне правило для .logo вже вище у файлі */
+.footer .logo {
+  margin-bottom: 16px; /* тільки відступ */
 }
 
 .logo-span-footer {
@@ -311,17 +304,5 @@ a {
   color: var(--cloud);
 }
 
-/* --- checker hooks: footer link must be inline-block --- */
-a.logo { 
-  display: inline-block;            /* якір з класом logo */
-}
-
-.footer a.logo { 
-  display: inline-block;            /* якір з класом logo всередині футера */
-}
-
-.footer .logo { 
-  display: inline-block;            /* елемент з класом logo у футері */
-}
 
 
