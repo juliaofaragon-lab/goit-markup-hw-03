@@ -287,7 +287,7 @@ a {
   gap: 16px;
 }
 
-.footer .logo {
+.footer-logo {
   display: inline-block;
   margin-bottom: 16px;
   font-family: "Raleway", sans-serif;
@@ -297,12 +297,6 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
-}
-
-.footer .logo,
-.footer-logo {
-  display: inline-block;
-  margin-bottom: 16px;
 }
 
 .logo-span-footer {
@@ -316,3 +310,4 @@ a {
   letter-spacing: 0.02em;
   color: var(--cloud);
 }
+
