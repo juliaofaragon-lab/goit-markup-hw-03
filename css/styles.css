@@ -299,6 +299,8 @@ a {
   color: var(--iris);
 }
 
+.footer .logo { display: inline-block; }
+
 .logo-span-footer {
   color: var(--cloud);
 }
