@@ -32,6 +32,19 @@ a {
   text-decoration: none;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /* ========== CONTAINER ========== */
 .container {
   width: 1158px;
@@ -128,7 +141,8 @@ a {
 }
 
 .hero-btn {
-  display: inline-block;
+  display: block;          /* було inline-block — міняємо на block */
+  margin: 0 auto;          /* центр по горизонталі */
   min-width: 169px;
   height: 56px;
   background-color: var(--iris);
@@ -141,6 +155,7 @@ a {
   border-radius: 4px;
   cursor: pointer;
 }
+
 
 .hero-btn:hover,
 .hero-btn:focus {
@@ -282,6 +297,12 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
+}
+
+.footer .logo,
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .logo-span-footer {
