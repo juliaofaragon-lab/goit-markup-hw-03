@@ -281,14 +281,10 @@ a {
   padding: 100px 0; 
 }
 
-.footer-container {
-  display: flex;
-  align-items: baseline;
-  gap: 16px;
-}
 
 .footer-link {
-  display: inline-block;   
+  display: inline-block;
+  margin-right: 0;   
   margin-bottom: 16px;     
 }
 
